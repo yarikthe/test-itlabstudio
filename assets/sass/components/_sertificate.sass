@@ -1,0 +1,60 @@
+#sertificate
+  min-height: 400px
+  background: $bgSertificate
+.content-sertificate
+  display: flex
+.right-side-sertificate
+  //padding-left: 100px!important
+  padding-bottom: 50px
+  h2
+    @extend %title
+    font-weight: 100
+    margin-top: 30px
+    text-align: left
+    margin-left: 30px
+    font-size: 36px
+  p
+    color: $hoverColor
+    text-align: left
+    font-weight: lighter
+    padding-top: 20px
+
+  .btn-get
+    background: $colorMain
+    color: $hoverColor
+    border-radius: 0
+    border: 1px solid $hoverColor
+    margin-top: 20px
+    text-transform: uppercase
+    height: 50px
+    @extend %myverticalcenter
+
+.left-side-sertificate
+  margin: 0
+  padding: 0
+  height: 400px
+  img
+    object-fit: cover
+    width: 100%
+    height: 100%
+
+@media only screen and (max-width: 599px)
+  .left-side-sertificate
+    padding-top: 20px
+    height: auto
+    img
+      object-fit: contain
+  .right-side-sertificate
+    h2
+      text-align: center
+      margin: 0
+      margin-top: 20px
+
+@media only screen and (min-width: 600px)
+  #sertificate
+    max-height: 400px
+
+
+
+
+

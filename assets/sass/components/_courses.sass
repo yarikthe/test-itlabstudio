@@ -1,0 +1,64 @@
+#courses
+  min-height: 785px
+  background: $bgCourses
+  padding-top: 50px
+  padding-bottom: 50px
+  h2
+    @extend %title
+    color: black
+  p
+    font-size: 26px
+    font-weight: 300
+.header-courses
+  margin-bottom: 50px
+.content-courses
+  @extend %myrow
+.item-courses
+  @extend %myrow
+  padding: 10px
+  background: #dbd9d9
+  margin: 10px
+  min-height: 300px
+div.item-courses.col-12.col-md-12.row
+  margin: 0
+  margin-bottom: 10px
+.picture-item-course
+  display: flex
+  align-items: flex-end
+  padding-right: 20px
+  padding-top: 30px
+  padding-bottom: 15px
+  img
+    height: 100%
+    width: 100%
+
+.info-item-courses
+  width: 50%
+  text-align: right
+  padding-bottom: 15px
+  h5
+    font-size: 28px
+    font-weight: 300
+    text-align: center!important
+  p
+    font-size: 18px!important
+    text-align: left
+    padding: 10px
+  .read-more-link
+    color: red
+    text-decoration: none
+
+.btn-register-course
+  background: $colorMain
+  color: $hoverColor
+  height: 20px
+  padding: 5px
+  text-align: center
+  text-decoration: none
+  text-transform: uppercase
+  font-size: 10px
+  margin-bottom: 15px
+  position: absolute
+  bottom: 0
+  &:hover
+    color: $hoverColor
