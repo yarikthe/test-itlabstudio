@@ -1,1 +1,1 @@
-Link for view http://projects.yariklukyanchuk.com.ua/test-task-itlabstudio/
+Link for view http://projects.yariklukyanchuk.com.ua/test-itlabstudio/
