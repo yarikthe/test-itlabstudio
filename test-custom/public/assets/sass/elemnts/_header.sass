@@ -1,0 +1,54 @@
+.link
+  color: $mainColor!important
+  font-family: $fontTitle!important
+  &:hover
+    border-top: 1px solid $mainColor
+    border-left: 1px solid $mainColor
+
+header
+  height: 100vh
+  position: relative
+  background: url(/../../assets/img/bg/bg-03.jpg) no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+header:after
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(0,0,0,.5)
+  z-index: 2
+
+.promo
+  height: 100vh
+  position: relative
+  z-index: 3
+  color: #fff
+  padding-top: 35vh
+  margin: 0px auto 0px auto
+  h1
+    font-size: 50px
+
+.btn-promo
+  background: $mainColor!important
+  border-radius: 0!important
+  border: $mainColor!important
+  color: white
+  width: 200px
+  height: 40px
+  &:hover
+    transform: scale(0.9)
+    -moz-transform: scale(0.9)
+    -ms-transform: scale(0.9)
+    -webkit-transform: scale(0.9)
+    -o-transform: scale(0.9)
+    background: white
+  a
+    color: $mainColor
+
+

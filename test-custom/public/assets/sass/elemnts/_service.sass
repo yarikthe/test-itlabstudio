@@ -1,0 +1,50 @@
+/* Benefits */
+
+.card-benefits__img
+  width: 150px
+  height: 150px
+  margin-bottom: 20px
+
+.card-benefits__title
+  text-transform: uppercase
+
+.card-benefits__desc
+  font-size: 16px
+  color: $mainColor
+
+.card-benefits__body
+  &:hover
+    transform: scale(1.1)
+    -moz-transform: scale(1.1)
+    -ms-transform: scale(1.1)
+    -webkit-transform: scale(1.1)
+    -o-transform: scale(1.1)
+    background: white
+
+/* Service */
+
+.card-service
+  height: 200px
+  position: relative
+  background: url(/../../assets/img/bg/bg-01.jpg) no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: rgba(0,0,0,.5)
+    z-index: 2
+  .card-service__body
+    position: relative
+    z-index: 3
+    color: #fff
+    padding-top: 35vh
+    margin: 0px auto 0px auto
+    h1
+      font-size: 50px
